@@ -1,0 +1,42 @@
+{
+  "name": "openapi-ts-sdk-fetch",
+  "version": "1.0.0",
+  "description": "OpenAPI TypeScript SDK Fetch implementation - HTTP client based on native Fetch API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "npm run build && npm run test:fetch",
+    "test:fetch": "node tests/fetch-http-builder.test.js",
+    "prepublishOnly": "npm run clean && npm run build && npm run test"
+  },
+  "keywords": [
+    "openapi",
+    "typescript",
+    "sdk",
+    "fetch",
+    "http",
+    "client"
+  ],
+  "author": "langgexyz",
+  "license": "MIT",
+  "dependencies": {
+    "openapi-ts-sdk": "file:../openapi-ts-sdk"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
