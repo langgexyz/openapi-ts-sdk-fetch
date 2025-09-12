@@ -24,7 +24,7 @@
   "author": "langgexyz",
   "license": "MIT",
   "dependencies": {
-    "openapi-ts-sdk": "file:../openapi-ts-sdk"
+    "openapi-ts-sdk": "https://github.com/langgexyz/openapi-ts-sdk.git#semver:^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
