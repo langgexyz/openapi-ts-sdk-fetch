@@ -10,8 +10,7 @@
     "watch": "tsc --watch",
     "clean": "rm -rf dist",
     "test": "npm run build && npm run test:fetch",
-    "test:fetch": "node tests/fetch-http-builder.test.js",
-    "prepublishOnly": "npm run clean && npm run build && npm run test"
+    "test:fetch": "node tests/fetch-http-builder.test.js"
   },
   "keywords": [
     "openapi",
