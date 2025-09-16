@@ -1,6 +1,6 @@
 {
   "name": "openapi-ts-sdk-fetch",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0",
   "description": "OpenAPI TypeScript SDK Fetch implementation - HTTP client based on native Fetch API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
